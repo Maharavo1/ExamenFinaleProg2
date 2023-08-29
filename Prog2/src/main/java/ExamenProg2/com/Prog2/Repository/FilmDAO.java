@@ -5,7 +5,7 @@ import ExamenProg2.com.Prog2.model.film;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-@Service
+@Repository
 public abstract class FilmDAO {
     public abstract List<film> getAllFilm();
     public abstract  void insertFilm(film toInsert);
