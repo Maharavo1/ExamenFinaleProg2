@@ -4,7 +4,7 @@ import ExamenProg2.com.Prog2.model.customer;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-@Service
+@Repository
 public abstract class CustomerDAO {
     public abstract List<customer> getAllCustomer();
     public abstract void insertCustomer(customer toInsert);
