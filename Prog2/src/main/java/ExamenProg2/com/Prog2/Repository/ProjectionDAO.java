@@ -5,7 +5,7 @@ import ExamenProg2.com.Prog2.model.projection;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-@Service
+@Repository
 public abstract class ProjectionDAO {
     public abstract List<projection> getAllProjection();
     public abstract  void insertProjection(projection toInsert);
