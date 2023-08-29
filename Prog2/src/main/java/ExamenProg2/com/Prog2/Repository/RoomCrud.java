@@ -7,7 +7,7 @@ import java.sql.*;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
-@Service
+@Repository
 public class RoomCrud extends RoomDAO {
     private Connection connection;
 
