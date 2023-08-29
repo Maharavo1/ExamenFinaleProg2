@@ -4,7 +4,7 @@ import ExamenProg2.com.Prog2.model.booking;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-@Service
+@Repository
 public abstract class BookingDAO {
     public abstract List<booking> getAllBooking();
     public abstract  void insertBooking(booking toInsert);
