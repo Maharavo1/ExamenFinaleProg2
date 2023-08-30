@@ -15,7 +15,7 @@ public class ProjectionController {
         this.projectionService = projectionService;
     }
 
-    @GetMapping("projection")
+    @GetMapping("/projection")
     public List<projection> getAllProjections() {
         return projectionService.getAllProjections();
     }
