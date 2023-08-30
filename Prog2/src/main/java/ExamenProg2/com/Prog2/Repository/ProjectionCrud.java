@@ -2,7 +2,7 @@ package ExamenProg2.com.Prog2.Repository;
 
 
 import ExamenProg2.com.Prog2.model.projection;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Repository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
