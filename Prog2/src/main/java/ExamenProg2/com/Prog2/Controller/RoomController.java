@@ -16,12 +16,12 @@ public class RoomController {
         this.roomService = roomService;
     }
 
-    @GetMapping("room")
+    @GetMapping("/room")
     public List<room> getAllRooms() {
         return roomService.getAllRooms();
     }
 
-    @PostMapping("roomInsert")
+    @PostMapping("/roomInsert")
     public void insertRoom(@RequestBody room toInsert) {
         roomService.insertRooms(toInsert);
     }
